@@ -8,6 +8,8 @@ function FormConnexion() {
   });
 
   const [ErrorMessage, setErrorMessage] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
 
   const FormSubmit = (event) => {
