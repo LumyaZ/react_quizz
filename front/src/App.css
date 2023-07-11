@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  width: 100%;
+  background-color: #A1D2CE;
+  position: fixed;
+  height: 100%;
+}
+.fin_quizz{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.fin_score{
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+.btn_reponse{
+  padding: 1em 0em;
+  width: 35%;
+  margin: 1em;
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #78CAD2;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0.5rem;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+
+.btn_reponse.correct {
+  background-color: green;
+}
+
+.btn_reponse.incorrect {
+  background-color: red;
+}
+
+.choice_btn{
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 4em;
+}
+

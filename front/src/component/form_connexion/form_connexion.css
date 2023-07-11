@@ -1,0 +1,42 @@
+.input_conn {
+  width: 80%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+.title_connexion {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 1em;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input_conn {
+  width: 80%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+
+.btn_conn {
+  width: 80%;
+  padding: 0.5rem;
+  background-color: #78CAD2;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 1rem;
+  border: 2px solid #fff;
+  border-radius: 20px;
+
+}

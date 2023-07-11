@@ -1,0 +1,28 @@
+
+  
+.title_quizz {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 1em;
+  }
+.presentation{
+  height: 100%;
+  margin-top: 5em;
+}
+.quizz{
+    margin-top: 2em;
+    text-decoration: none;
+    background-color: #78CAD2;
+    border: 0.2em solid white;
+    padding: 5% 20% 5% 20%;
+    border-radius: 1em;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+.begin_quizz{
+  width: 100%;
+  margin-top: 15em;
+}

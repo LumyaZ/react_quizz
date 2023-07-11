@@ -1,0 +1,26 @@
+.categorie ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categorie li {
+    margin-bottom: 10px;
+  }
+  
+  .categorie li:hover {
+    background-color: #78CAD2;
+  }
+
+  .btn_categorie {
+    width: 100%;
+    padding: 0;
+    padding: 1.2em 0;
+
+  }
+
+  .categorie_href{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
