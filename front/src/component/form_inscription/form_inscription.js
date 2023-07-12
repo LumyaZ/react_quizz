@@ -21,6 +21,7 @@ function FormInscription() {
       .then(response => response.json())
       .then(data => {
         console.log(data);
+          window.location.replace('/');
       })
       .catch(error => {
         console.error(error);
@@ -40,7 +41,7 @@ function FormInscription() {
                   <input type='text' placeholder='Name' name='name'className='input_conn' style={{ marginTop:'10%' }} onChange={form}></input>
                   <input type='email' placeholder='Email' name='email' className='input_conn' onChange={form}></input>
                   <input type='email' placeholder='Confirm email' name='confirm_email' className='input_conn' onChange={form}></input>
-                  <input type='paswword' placeholder='Password' name='paswword' className='input_conn' onChange={form}></input>
+                  <input type='password' placeholder='Password' name='password' className='input_conn' onChange={form}></input>
                   <button className='btn_conn'>Envoyer</button>
               </form>
           </div>

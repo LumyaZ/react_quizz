@@ -13,8 +13,8 @@ function AccueilConnect() {
     };
 
     const editer = () => {
-        window.location.href = '/';
-        
+        window.location.href = '/edition';
+
     };
 
     return (
